@@ -1,4 +1,3 @@
-examples/**/*
 sdk/nodejs/bin/
 sdk/nodejs/node_modules/
 vendor/
