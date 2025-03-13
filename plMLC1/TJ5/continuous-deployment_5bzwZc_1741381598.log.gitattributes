@@ -10,6 +10,5 @@ api/openapi-spec/*.json linguist-generated=true
 api/protobuf-spec/*.proto linguist-generated=true
 api/swagger-spec/*.json linguist-generated=true
 contrib/completions/bash/** linguist-generated=true
-contrib/completions/zsh/** linguist-generated=true
 docs/man/man1/** linguist-generated=true
 pkg/**/swagger_doc.go linguist-generated=true
