@@ -1,0 +1,37 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2020": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "parser": "@typescript-eslint/parser",
+      "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+      "plugins": ["@typescript-eslint"]
+    },
+    {
+      "files": ["**/*.test?(.*).ts", "**/*.test?(.*).tsx", "**/*.test?(.*).js"],
+      "env": {
+        "jest": true,
+        "jest/globals": true
+      },
+      "globals": {
+        "page": true,
+        "browser": true,
+        "context": true,
+        "jestPuppeteer": true
+      },
+      "plugins": ["jest"]
+    }
+  ]
+}
