@@ -91,7 +91,6 @@ AidLearning参与人员：bill、flay、gondon、willam、gugu、yoline777、qid
 * remi:Python REMote Interface library. Platform independent. In about 100 Kbytes, perfect for your diet.[Source](https://github.com/dddomodossola/remi).
 * [Caffe](https://github.com/BVLC/caffe)
 * [Tensorflow](https://github.com/tensorflow/tensorflow)
-* [Mxnet](https://github.com/apache/incubator-mxnet)
 * [Keras](https://github.com/keras-team/keras)
 * [ncnn](https://github.com/Tencent/ncnn)
 * [pytorch](https://github.com/pytorch/pytorch)
