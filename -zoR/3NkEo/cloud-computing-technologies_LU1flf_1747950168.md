@@ -47,7 +47,6 @@ For CNCF projects, the scope of the Public Sector User Group engages, amongst ot
 
 - Guidance on meeting different government compliance requirements (US Specific examples include [FIPS 140-2](https://csrc.nist.gov/publications/detail/fips/140/2/final) and [FedRamp](https://www.fedramp.gov/)
 
-## Areas considered out of Scope
 
 Anything not explicitly considered in the scope above. Example include:
 
