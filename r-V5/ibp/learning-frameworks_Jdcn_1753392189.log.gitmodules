@@ -1,0 +1,4 @@
+
+[submodule "docs/demos"]
+	path = docs/demos
+	url = https://github.com/ivy-llc/demos.git
