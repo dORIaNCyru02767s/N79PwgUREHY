@@ -1,0 +1,17 @@
+sudo: false
+language: scala
+env:
+  - NODE_VERSION=7.2.0
+install:
+  - nvm install $NODE_VERSION
+script:
+  - nvm use $NODE_VERSION
+  - mvn clean test package
+scala:
+  - "2.11.2"
+jdk:
+  - oraclejdk8
+cache:
+  directories:
+    - $HOME/.m2/repository
+    - src/main/resources/ui/node_modules
